@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[LOGIN PAGE is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[CRM HOME PAGE is Displayed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-07-05T09:33:08 IST" name="Default suite" finished-at="2022-07-05T09:33:14 IST" duration-ms="6169">
+    <groups>
+    </groups>
+    <test started-at="2022-07-05T09:33:08 IST" name="Default test" finished-at="2022-07-05T09:33:14 IST" duration-ms="6169">
+      <class name="com.Shannon.Contacts.CreateViewTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.Shannon.Contacts.CreateViewTest@4efac082]" started-at="2022-07-05T09:33:08 IST" name="openBrowser" finished-at="2022-07-05T09:33:12 IST" duration-ms="3387" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[LOGIN PAGE is Displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="verifyCreateViewTest()[pri:0, instance:com.Shannon.Contacts.CreateViewTest@4efac082]" started-at="2022-07-05T09:33:12 IST" name="verifyCreateViewTest" finished-at="2022-07-05T09:33:14 IST" duration-ms="1849" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[CRM HOME PAGE is Displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCreateViewTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.Shannon.Contacts.CreateViewTest@4efac082]" started-at="2022-07-05T09:33:14 IST" name="closeBrowser" finished-at="2022-07-05T09:33:14 IST" duration-ms="907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.Shannon.Contacts.CreateViewTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

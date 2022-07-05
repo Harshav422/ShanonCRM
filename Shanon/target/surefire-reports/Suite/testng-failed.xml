@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="com.Shanon.accounts.VerifyAccountsCustomViewPage">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="verifyAccountsCustomViewPageTest"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.Shanon.accounts.VerifyAccountsCustomViewPage -->
+      <class name="com.Shanon.Leads.VerifyLeads">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="verifyLeadsTabTest"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.Shanon.Leads.VerifyLeads -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

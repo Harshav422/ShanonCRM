@@ -1,0 +1,4 @@
+com\Shanon\pages\SignInPage.class
+com\Shanon\pages\LeadCustomViewPage.class
+com\Shanon\GenericLib\IAutoConsts.class
+com\Shanon\GenericLib\FileLib.class

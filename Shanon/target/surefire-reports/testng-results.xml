@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="3" failed="2" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Test started]]>
+    </line>
+    <line>
+      <![CDATA[LOGIN PAGE is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[verifyhomepage method started]]>
+    </line>
+    <line>
+      <![CDATA[CRM HOME PAGE is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[VIEW ALL EVENTS PAGE is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[verifyhomepage method PASSED]]>
+    </line>
+    <line>
+      <![CDATA[LOGIN PAGE is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[verifyAccountsPageTest method started]]>
+    </line>
+    <line>
+      <![CDATA[CRM HOME PAGE is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[verifyAccountsPageTest method PASSED]]>
+    </line>
+    <line>
+      <![CDATA[LOGIN PAGE is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[createNewLeadTest method started]]>
+    </line>
+    <line>
+      <![CDATA[CRM HOME PAGE is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[LEADS TEXT is Displayed, PASS]]>
+    </line>
+    <line>
+      <![CDATA[CREATE LEAD PAGE is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[createNewLeadTest method PASSED]]>
+    </line>
+    <line>
+      <![CDATA[LOGIN PAGE is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[verifyAccountsCustomViewPageTest method started]]>
+    </line>
+    <line>
+      <![CDATA[CRM HOME PAGE is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Accounts Page is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[verifyAccountsCustomViewPageTest method FAILED]]>
+    </line>
+    <line>
+      <![CDATA[LOGIN PAGE is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[verifyLeadsTabTest method started]]>
+    </line>
+    <line>
+      <![CDATA[CRM HOME PAGE is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[verifyLeadsTabTest method FAILED]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-06-28T08:27:52 IST" name="Suite" finished-at="2022-06-28T08:28:23 IST" duration-ms="31107">
+    <groups>
+    </groups>
+    <test started-at="2022-06-28T08:27:52 IST" name="Test" finished-at="2022-06-28T08:28:23 IST" duration-ms="31107">
+      <class name="com.Shanon.Leads.VerifyLeads">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.Shanon.Leads.VerifyLeads@3d1cfad4]" started-at="2022-06-28T08:28:20 IST" name="openBrowser" finished-at="2022-06-28T08:28:22 IST" duration-ms="1713" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[LOGIN PAGE is Displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="verifyLeadsTabTest()[pri:0, instance:com.Shanon.Leads.VerifyLeads@3d1cfad4]" started-at="2022-06-28T08:28:22 IST" name="verifyLeadsTabTest" finished-at="2022-06-28T08:28:23 IST" duration-ms="950" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'LAPTOP-8ADG3AEO', ip: '192.168.133.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c64f872f98baef5f87e412ec3fd232f8, findElement {using=xpath, value=//td[contains(text(),'Leads: ')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\HARSHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59437}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59437/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c64f872f98baef5f87e412ec3fd232f8]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'LAPTOP-8ADG3AEO', ip: '192.168.133.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c64f872f98baef5f87e412ec3fd232f8, findElement {using=xpath, value=//td[contains(text(),'Leads: ')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\HARSHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59437}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59437/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c64f872f98baef5f87e412ec3fd232f8
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy14.isDisplayed(Unknown Source)
+at com.Shanon.GenericLib.WebdriverCommonLib.elementDisplayed(WebdriverCommonLib.java:56)
+at com.Shanon.Leads.VerifyLeads.verifyLeadsTabTest(VerifyLeads.java:33)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+            <line>
+              <![CDATA[verifyLeadsTabTest method started]]>
+            </line>
+            <line>
+              <![CDATA[CRM HOME PAGE is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[verifyLeadsTabTest method FAILED]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLeadsTabTest -->
+      </class> <!-- com.Shanon.Leads.VerifyLeads -->
+      <class name="com.Shanon.accounts.VerifyAcoountsPage">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.Shanon.accounts.VerifyAcoountsPage@3e6ef8ad]" started-at="2022-06-28T08:28:01 IST" name="openBrowser" finished-at="2022-06-28T08:28:02 IST" duration-ms="1853" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[LOGIN PAGE is Displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="verifyAccountsPageTest()[pri:0, instance:com.Shanon.accounts.VerifyAcoountsPage@3e6ef8ad]" started-at="2022-06-28T08:28:02 IST" name="verifyAccountsPageTest" finished-at="2022-06-28T08:28:04 IST" duration-ms="1218" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[verifyAccountsPageTest method started]]>
+            </line>
+            <line>
+              <![CDATA[CRM HOME PAGE is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[verifyAccountsPageTest method PASSED]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyAccountsPageTest -->
+      </class> <!-- com.Shanon.accounts.VerifyAcoountsPage -->
+      <class name="com.Shanon.accounts.VerifyAccountsCustomViewPage">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.Shanon.accounts.VerifyAccountsCustomViewPage@747edf66]" started-at="2022-06-28T08:28:09 IST" name="openBrowser" finished-at="2022-06-28T08:28:11 IST" duration-ms="2401" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[LOGIN PAGE is Displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="verifyAccountsCustomViewPageTest()[pri:0, instance:com.Shanon.accounts.VerifyAccountsCustomViewPage@747edf66]" started-at="2022-06-28T08:28:11 IST" name="verifyAccountsCustomViewPageTest" finished-at="2022-06-28T08:28:20 IST" duration-ms="8955" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to find element with locator By.xpath: //a[@href="javascript:editCustomView()" and text()="Edit"]
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'LAPTOP-8ADG3AEO', ip: '192.168.133.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.xpath: //a[@href="javascript:editCustomView()" and text()="Edit"]
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'LAPTOP-8ADG3AEO', ip: '192.168.133.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
+at com.Shanon.pages.AccountsCustomViewPage.clickEditLink(AccountsCustomViewPage.java:64)
+at com.Shanon.accounts.VerifyAccountsCustomViewPage.verifyAccountsCustomViewPageTest(VerifyAccountsCustomViewPage.java:36)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[verifyAccountsCustomViewPageTest method started]]>
+            </line>
+            <line>
+              <![CDATA[CRM HOME PAGE is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[Accounts Page is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[verifyAccountsCustomViewPageTest method FAILED]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyAccountsCustomViewPageTest -->
+      </class> <!-- com.Shanon.accounts.VerifyAccountsCustomViewPage -->
+      <class name="com.Shanon.Leads.VerifyLeadCreation">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.Shanon.Leads.VerifyLeadCreation@55536d9e]" started-at="2022-06-28T08:28:04 IST" name="openBrowser" finished-at="2022-06-28T08:28:05 IST" duration-ms="1757" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[LOGIN PAGE is Displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="createNewLeadTest()[pri:0, instance:com.Shanon.Leads.VerifyLeadCreation@55536d9e]" started-at="2022-06-28T08:28:05 IST" name="createNewLeadTest" finished-at="2022-06-28T08:28:09 IST" duration-ms="3705" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[createNewLeadTest method started]]>
+            </line>
+            <line>
+              <![CDATA[CRM HOME PAGE is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[LEADS TEXT is Displayed, PASS]]>
+            </line>
+            <line>
+              <![CDATA[CREATE LEAD PAGE is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[createNewLeadTest method PASSED]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createNewLeadTest -->
+      </class> <!-- com.Shanon.Leads.VerifyLeadCreation -->
+      <class name="com.Shannon.Home.HomepageTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.Shannon.Home.HomepageTest@7671cb68]" started-at="2022-06-28T08:27:52 IST" name="openBrowser" finished-at="2022-06-28T08:27:55 IST" duration-ms="2972" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[LOGIN PAGE is Displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="verifyhomepage()[pri:0, instance:com.Shannon.Home.HomepageTest@7671cb68]" started-at="2022-06-28T08:27:55 IST" name="verifyhomepage" finished-at="2022-06-28T08:28:01 IST" duration-ms="5398" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[verifyhomepage method started]]>
+            </line>
+            <line>
+              <![CDATA[CRM HOME PAGE is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[VIEW ALL EVENTS PAGE is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[verifyhomepage method PASSED]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyhomepage -->
+      </class> <!-- com.Shannon.Home.HomepageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
