@@ -12,7 +12,7 @@ import org.testng.annotations.BeforeClass;
 public class BaseTest implements IAutoConsts{
 
 	public static WebDriver driver;
-	//hi
+	
 	@BeforeClass
 	public void openBrowser() throws Throwable
 	{
